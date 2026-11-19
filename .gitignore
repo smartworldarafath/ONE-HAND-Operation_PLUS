@@ -1,0 +1,34 @@
+# Secrets, keys & credentials
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+*.key
+credentials.json
+google-services.json
+local.properties
+
+# Decompiled & build outputs
+apktool_orig_bak/
+apktool_out/
+compat_build/
+dist/
+jadx_out/
+video_frames/
+*.apk
+*.idsig
+*.dex
+*.class
+
+# Debug dumps & media
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.xml
+!resources/res/xml/sgp_accessibility_service.xml
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
