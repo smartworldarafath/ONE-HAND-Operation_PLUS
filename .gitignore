@@ -23,6 +23,7 @@ video_frames/
 
 # Debug dumps & media
 *.png
+!assets/*.png
 *.jpg
 *.jpeg
 *.mp4
